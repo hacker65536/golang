@@ -51,6 +51,7 @@ exit status 2
 ```
 
 
+get a value  before send a value to the channel
 ```go
 package main
 
