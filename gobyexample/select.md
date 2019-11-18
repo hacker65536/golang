@@ -69,7 +69,7 @@ func main() {
 
         go func() {
                 time.Sleep(3 * time.Second)
-                c2 <- "three"
+                c3 <- "three"
         }()
 
         for i := 0; i < 3; i++ {
@@ -91,7 +91,8 @@ received one
 received two
 received three
 
-real    0m3.145s
-user    0m0.125s
-sys     0m0.080s
+real    0m3.143s
+user    0m0.155s
+sys     0m0.029s
+
 ```
