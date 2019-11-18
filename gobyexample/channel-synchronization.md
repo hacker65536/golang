@@ -1,3 +1,4 @@
+https://gobyexample.com/channel-synchronization
 
 ```go
 package main
