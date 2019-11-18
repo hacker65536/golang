@@ -41,7 +41,7 @@ func main() {
 
 
 ```console
-go run channel-buffering.go
+$ go run channel-buffering.go
 fatal error: all goroutines are asleep - deadlock!
 
 goroutine 1 [chan send]:
